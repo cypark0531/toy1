@@ -8,7 +8,7 @@ const About = () => {
     .then(message => {
     setMessage(message);
     });
-    },[])
+    },[]) 
 
     return (
         <div>
