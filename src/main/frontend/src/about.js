@@ -11,13 +11,13 @@ const About = () => {
     },[]) 
 
     return (
-        <div>
+        <div className="section">
             <h1>어바웃</h1>
             <p>이곳은 어바웃이에요,</p>
             {message.map((item,index) => (
-                <div>{item}</div>
+                <div key={index}>{item}</div>
             ))}
-            <a href="/home"></a>
+            <a href="/"></a>
         </div>
     )
 }

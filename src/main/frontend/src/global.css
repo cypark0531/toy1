@@ -1,0 +1,7 @@
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css");
+.navbar li {
+    list-style: none;
+}
+.notShow {
+    display: none !important;
+}
