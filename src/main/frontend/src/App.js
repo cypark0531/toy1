@@ -10,9 +10,9 @@ const App = () => {
   return (
     <>
       <Nav/>
-      <section class="main-content columns is-fullheight">
+      <section className="main-content columns is-fullheight">
         <Menu/>
-      <div class="container column is-10">
+      <div className="container column is-10">
         <Routes>
           <Route path="" element={<Home/>} />
           <Route path="/about" element={<About/>} />

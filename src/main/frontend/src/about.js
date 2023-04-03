@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 const About = () => {
     const [message, setMessage] = useState([]);
     useEffect(() => {
-    fetch(`/api/about?name=어바웃`)
+    fetch(`/about?name=어바웃`)
     .then(response => response.json())
     .then(message => {
     setMessage(message);
