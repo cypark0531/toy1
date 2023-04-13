@@ -5,20 +5,13 @@ import About from './about';
 import Nav from "./nav";
 import Menu from './menu';
 import './global.css';
+import data from './json/data.json';
 
 const App = () => {
   return (
     <>
       <Nav/>
-      <section className="main-content columns is-fullheight">
-        <Menu/>
-      <div className="container column is-10">
-        <Routes>
-          <Route path="" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-        </Routes>
-      </div>
-    </section>
+      <Home home={data.home}/>
     </>
   );
 };

@@ -1,0 +1,30 @@
+{
+    "home" : {
+        "name" : "박찬영",
+        "job" : "Web Developer"
+    },
+    "about" : {
+        "profile" : {
+            "Name" : "박찬영",
+            "Address" : "서울특별시 성북구",
+            "Phone" : "010-4436-4613",
+            "Email" : "cyelp345789@naver.com",
+            "Education" : "한성대학교 역사문화학 전공 , 2013.03 ~ 2019.02 ",
+            "Employment History": [
+                {
+                    "Company" : "양재미디어",
+                    "Period" : "2021-10-06 ~ ",
+                    "Position" : "웹 컨텐츠 개발자",
+                    "Responsibilities" : "언론사들의 콘텐츠를 관리하는 서비스 시스템 개발"
+                }
+            ]
+            ,
+            "age" : 30
+        },
+        "content" : {
+            "title" : "지금 빨리가는 것보다 앞으로 빨리 갈 수 있는 것에 중점을 둔 개발자",
+            "body" : "<p>저는  <strong>2 년차</strong> 웹 개발자입니다."
+            
+        }
+    }
+}
